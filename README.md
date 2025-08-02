@@ -48,6 +48,6 @@ There are three mailbox in this design -
   3. Monitor to scoreboard 
 
 6️⃣ Interface
-       A SystemVerilog construct used to bundle related signals.
-       Testbench components (like BFM and Monitor) interact with the DUT through these interfaces.
+    A SystemVerilog construct used to bundle related signals.
+    Testbench components (like BFM and Monitor) interact with the DUT through these interfaces.
 
