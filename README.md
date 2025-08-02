@@ -9,7 +9,7 @@ This repository contains a modular, coverage-driven testbench architecture in Sy
                                                     BREAKDOWN OF THE ARCHITECHURE 
 
 1️⃣ Program : 
-      It’s where your test sequences start.
+It’s where your test sequences start.
       Controls the overall simulation.
 
 2️⃣ Environment
