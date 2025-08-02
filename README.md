@@ -12,18 +12,18 @@ This repository contains a modular, coverage-driven testbench architecture in Sy
 It’s where your test sequences start.
       Controls the overall simulation.
 
-2️⃣ Environment
+2️⃣ Environment :
       Contains all verification components needed to test the DUT.
 
 The main components:
 
 1. Agent (or multiple agents, if the DUT has multiple interfaces).
 
-2. Scoreboard
+2. Scoreboard :
 
 Environment integrates these components, configures them, and controls their interactions.
 
-3️⃣ Agent
+3️⃣ Agent :
       Responsible for driving and monitoring transactions on a particular interface of the DUT.
 
 1. Generator: Creates randomized or directed stimulus (transactions).
@@ -36,18 +36,18 @@ Environment integrates these components, configures them, and controls their int
 
 Communication between these components is often done using mailboxes.
 
-4️⃣ Scoreboard
+4️⃣ Scoreboard :
         Receives the transactions (from Monitor) and checks DUT correctness.
         Compares expected vs actual results and reports mismatches.
 
-5️⃣ Mailbox
+5️⃣ Mailbox :
         Used for communication between testbench components.
 There are three mailbox in this design - 
   1. Generator to BFM 
   2. Monitor to coverage 
   3. Monitor to scoreboard 
 
-6️⃣ Interface
+6️⃣ Interface :
     A SystemVerilog construct used to bundle related signals.
     Testbench components (like BFM and Monitor) interact with the DUT through these interfaces.
 
