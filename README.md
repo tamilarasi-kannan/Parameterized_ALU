@@ -43,9 +43,9 @@ Communication between these components is often done using mailboxes.
 5️⃣ Mailbox
         Used for communication between testbench components.
 There are three mailbox in this design - 
-       1. Generator to BFM 
-       2. Monitor to coverage 
-       3. Monitor to scoreboard 
+  1. Generator to BFM 
+  2. Monitor to coverage 
+  3. Monitor to scoreboard 
 
 6️⃣ Interface
        A SystemVerilog construct used to bundle related signals.
