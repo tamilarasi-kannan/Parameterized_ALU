@@ -1,12 +1,12 @@
-                                                                              PARAMETERIZED ALU 
+                                                                      PARAMETERIZED ALU 
 
 This repository contains a modular, coverage-driven testbench architecture in SystemVerilog for functional verification of parameterized ALU.
 
-System verilog testbench Architechure 
+                                                           System verilog testbench Architechure 
 
 <img width="777" height="328" alt="image" src="https://github.com/user-attachments/assets/91fe6faf-118b-42ea-ad0d-80ccde928558" />
 
-Breakdown of the Architechure : 
+                                                              Breakdown of the Architechure 
 
 1️⃣ Program : 
       It’s where your test sequences start.
